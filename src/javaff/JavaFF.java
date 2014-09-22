@@ -133,7 +133,7 @@ public class JavaFF
 		// Get the initial state
 		TemporalMetricState initialState = ground.getTemporalMetricInitialState();
 		
-                State goalState = goalState = performFFSearch(initialState);
+                State goalState = performFFSearch(initialState);
                 
 		long afterPlanning = System.currentTimeMillis();
 
